@@ -1,0 +1,53 @@
+body{
+	font-family: 'Cairo', sans-serif;
+	background:url(../img/owo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+	width: 700px;
+    margin: 5% auto;
+}
+.rcver-section{
+	width: 600px;
+    margin: 29px;
+    padding: 17px;
+
+}
+.rcver-section img{
+	margin: 0 auto;
+    display: block;
+    height: 190px;
+    width: 540px;
+}
+.rcver-section h1{
+	text-align: center;
+    color: blue;
+}
+.pass-control{
+	width: 85%;
+    padding: 1%;
+    margin: 4px;
+}
+.pass-btn{
+    margin: 0 auto;
+    display: block;
+    width: 15%;
+    padding: 1%;
+    text-transform: uppercase;
+    color: red;
+    background: white;
+	border: none;
+    transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    -webkit-transition:0.4s ease-in-out;
+}
+.pass-btn:hover{
+	cursor: pointer;
+	box-shadow: 4px 3px 4px 2px #c5aca4e8;
+}
+a{
+	font-size: 20px;
+    color: aliceblue;
+}
